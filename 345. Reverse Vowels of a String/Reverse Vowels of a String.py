@@ -1,5 +1,7 @@
 class Solution:
     def reverseVowels(self, s: str) -> str:
+        from collections import deque
+
         vow_in_s = []
         slen = len(s)
         vow = "aeiou"
